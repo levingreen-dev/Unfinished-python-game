@@ -1,0 +1,39 @@
+{
+    "name": "super ultra test",
+    "type": "single",
+    "id": "e:test",
+    "stats": {
+        "health": 50
+    },
+    "moves": {
+        "heal": {
+            "com": "hp;2d8;4",
+            "type": "full"
+        },
+        "atk": {
+            "com": "atk;2d6",
+            "type": "full"
+        },
+        "spdatk": {
+            "com": "atk;2d4",
+            "type": "speed"
+        }
+    },
+    "chances": {
+        "0": {
+            "heal": 60,
+            "atk": 20,
+            "spdatk": 20
+        },
+        "50": {
+            "heal": 30,
+            "atk": 50,
+            "spdatk":20
+        },
+        "80": {
+            "heal": 20,
+            "atk": 60,
+            "spdatk": 20
+        }
+    }
+}
