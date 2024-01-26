@@ -1,0 +1,69 @@
+{
+    "title": "Quest 2",
+    "id": "q:intro:two",
+    "requirements": ["q:intro:one"],
+    "objective": "answer the questions",
+    "entry": "dialog1",
+
+    "content": {
+        "dialog1": {
+            "prompt": true,
+            "content": [
+                "dialog1",
+                "This is the second quest.",
+                "It requires the first quest to be completed",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "4fgfgdfssd",
+                "Yes or no? [y/n/dfasdf]"
+            ],
+            "options": {
+                "y": "dialog2",
+                "n": "dialog3",
+                "dfasdf": "dialog6"
+            }
+        },
+        "dialog2": {
+            "prompt": true,
+            "content": [
+                "dialog2",
+                "You answered Yes.",
+                "good job",
+                "that's insane",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog4"
+            }
+        },
+        "dialog3": {
+            "prompt": true,
+            "content": [
+                "dialog3",
+                "You answered No.",
+                "Wow.",
+                "Insane.",
+                "Couldn't be me.",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog4"
+            }
+        },
+        "dialog4": {
+            "prompt": true,
+            "content": [
+                "dialog4",
+                "This is the second quest.",
+                "It requires the first quest to be completed",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "4fgfgdfssd",
+                "Yes or no? [y/n/dfasdf]"
+            ],
+            "options": {
+                "default": "END"
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "title": "four",
+    "id": "q:intro:four",
+    "requirements": ["q:intro:two"],
+    "objective": "answer the questions",
+    "entry": "dialog1",
+
+    "content": {
+        "dialog1": {
+            "prompt": true,
+            "content": [
+                "Welcome to laksdjfljk;asdf",
+                "dialog1",
+                "1asdfasdf",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "4fgfgdfssd",
+                "Yes or no? [y/n/dfasdf]"
+            ],
+            "options": {
+                "y": "dialog2",
+                "n": "dialog3",
+                "dfasdf": "dialog6"
+            }
+        },
+        "dialog2": {
+            "prompt": false,
+            "content": [
+                "OK, chose yes",
+                "dialog2",
+                "yes asdfsasdfasd",
+                "yes affthrtyhd",
+                "yes fhgfhf",
+                "yes hjhhgfd",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog3": {
+            "prompt": true,
+            "objective": "don't die",
+            "content": [
+                "OK, chose no",
+                "dialog3",
+                "no asdfsasdfasd",
+                "no affthrtyhd",
+                "no fhgfhf",
+                "no hjhhgfd",
+                "Yes or no? [y/n]"
+            ],
+            "options": {
+                "y": "dialog4",
+                "n": "dialog5"
+            }
+        },
+        "dialog4": {
+            "prompt": false,
+            "content": [
+                "Yes, this time",
+                "dialog4",
+                "435ttgs",
+                "af5",
+                "dyhtr",
+                "rewe",
+                "Type `continue' or `c' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog5": {
+            "prompt": false,
+            "content": [
+                "No, again.",
+                "dialog5",
+                "435ttgs",
+                "af5",
+                "dyhtr",
+                "rewe",
+                "Type `continue' or `c' to Continue"
+            ],
+            "options": {
+                "default": "END"
+            }
+        },
+        "dialog6": {
+            "prompt": false,
+            "content": [
+                "Ending to laksdjfljk;asdf",
+                "dialog6",
+                "1asdfasdf",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "4fgfgdfssd",
+                "Type `continue' or `c' to Continue"
+            ],
+            "options": {
+                "default": "END"
+            }
+        }
+    }
+}

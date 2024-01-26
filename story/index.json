@@ -1,0 +1,8 @@
+{
+    "intro": {
+        "one": "./story/intro/one.json",
+        "two": "./story/intro/two.json",
+        "three": "./story/intro/three.json",
+        "four": "./story/intro/four.json"
+    }
+}

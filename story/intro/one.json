@@ -1,0 +1,95 @@
+{
+    "title": "Quest 1",
+    "id": "q:intro:one",
+    "requirements": [],
+    "objective": "answer the questions",
+    "entry": "dialog1",
+
+    "content": {
+        "dialog1": {
+            "content": [
+                "(press enter to show next dialog)",
+                "dialog1",
+                "Welcome to kasjdfkljsd",
+                "This is the first quest",
+                "This quest doesn't require any other quests to be completed",
+                "Do you like pancakes?",
+                "Yes or no? [y/n/end]"
+            ],
+            "options": {
+                "y": "dialog2",
+                "n": "dialog3",
+                "end": "dialog6"
+            }
+        },
+        "dialog2": {
+            "content": [
+                "OK, chose yes",
+                "dialog2",
+                "good",
+                "nice",
+                "this option goes straight to the end",
+                "which is dialog6",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog3": {
+            "objective": "don't die",
+            "content": [
+                "OK, chose no",
+                "dialog3",
+                "imagine",
+                "smh my head",
+                "how??",
+                "do you like donuts?",
+                "Yes or no? [y/n]"
+            ],
+            "options": {
+                "y": "dialog4",
+                "n": "dialog5"
+            }
+        },
+        "dialog4": {
+            "content": [
+                "Yes, this time",
+                "ok good",
+                "at least you like donuts",
+                "but not pancakes??",
+                "bruh",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog5": {
+            "content": [
+                "No, again.",
+                "dialog5",
+                "how do you not like either???",
+                "that's crazy",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog6": {
+            "content": [
+                "dialog6",
+                "Last dialog section",
+                "Ending",
+                "Dialogue",
+                "Words",
+                "Bye bye",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "END"
+            }
+        }
+    }
+}

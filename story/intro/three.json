@@ -1,0 +1,88 @@
+{
+    "title": "three",
+    "id": "q:intro:three",
+    "requirements": ["q:intro:two"],
+    "objective": "answer the questions",
+    "entry": "dialog1",
+
+    "content": {
+        "dialog1": {
+            "content": [
+                "Third Quest",
+                "dialog1",
+                "this quest should contain a test fight",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "Do the fight?",
+                "Yes or no? [y/n/dfasdf]"
+            ],
+            "options": {
+                "y": "dialog3",
+                "n": "dialog2",
+                "dfasdf": "dialog6"
+            }
+        },
+        "dialog2": {
+            "content": [
+                "No?",
+                "dialog2",
+                "Ok, sending you to the end",
+                "Type `continue' or `c' or `ok' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog3": {
+            "objective": "don't die",
+            "content": [
+                "OK, chose yes",
+                "dialog3",
+                "sending you to the fight"
+            ],
+            "options": {
+                "default": "dialog4"
+            }
+        },
+        "dialog4": {
+            "type": "FIGHT",
+            "content": [
+                "You dare fight me?",
+                "dialog4",
+                "435ttgs"
+            ],
+            "fight": "e:test",
+            "options": {
+                "default": "dialog5"
+            }
+        },
+        "dialog5": {
+            "content": [
+                "OK, you win.",
+                "dialog5",
+                "435ttgs",
+                "af5",
+                "dyhtr",
+                "rewe",
+                "Type `continue' or `c' to Continue"
+            ],
+            "options": {
+                "default": "dialog6"
+            }
+        },
+        "dialog6": {
+            "content": [
+                "Ending to laksdjfljk;asdf",
+                "dialog6",
+                "1asdfasdf",
+                "2dgfhdfghdf",
+                "3dfghfdgs",
+                "4fgfgdfssd",
+                "Type `continue' or `c' to Continue"
+            ],
+            "options": {
+                "default": "END"
+            }
+        }
+    }
+}

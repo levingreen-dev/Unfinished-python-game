@@ -1,0 +1,10 @@
+#+TITLE: Zyphren
+#+AUTHOR: dublU(ayaychtee), blainto, Rockyers
+
+This game is a game ig
+
+* Task List
+- [X] Reformat README
+- [X] Reformat main.py
+- [ ] Setup Layout
+- [ ] Layout Game
